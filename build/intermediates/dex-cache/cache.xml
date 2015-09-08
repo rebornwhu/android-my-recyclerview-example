@@ -2,11 +2,18 @@
 <items version="2" >
 
     <item
-        jar="/Users/xiaolu/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jar="/Users/xiaolu/WorkSpaces/android_spaces/recyclerview_spaces/android-my-recyclerview-example/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/Users/xiaolu/WorkSpaces/android_spaces/recyclerview_spaces/android-my-recyclerview-example/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-f0f243a7dd445632a31ec772dd1b99118e54cd10.jar" />
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/xiaolu/WorkSpaces/android_spaces/recyclerview_spaces/android-my-recyclerview-example/app/build/intermediates/pre-dexed/debug/classes-415b7ce41e3b7b7797504a123f879d556eae2e53.jar" />
+    </item>
+    <item
+        jar="/Users/xiaolu/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/Users/xiaolu/WorkSpaces/android_spaces/recyclerview_spaces/android-my-recyclerview-example/app/build/intermediates/pre-dexed/debug/butterknife-7.0.1-8d75247ba0987afb2394b8c003615e75b19ba02e.jar" />
     </item>
     <item
         jar="/Users/xiaolu/WorkSpaces/android_spaces/recyclerview_spaces/android-my-recyclerview-example/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
@@ -16,11 +23,25 @@
         <dex dex="/Users/xiaolu/WorkSpaces/android_spaces/recyclerview_spaces/android-my-recyclerview-example/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-30d7d867d58a720f1128a48ed1fb0cb75e0764d3.jar" />
     </item>
     <item
+        jar="/Users/xiaolu/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/xiaolu/WorkSpaces/android_spaces/recyclerview_spaces/android-my-recyclerview-example/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-f0f243a7dd445632a31ec772dd1b99118e54cd10.jar" />
+    </item>
+    <item
         jar="/Users/xiaolu/WorkSpaces/android_spaces/recyclerview_spaces/android-my-recyclerview-example/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
         <dex dex="/Users/xiaolu/WorkSpaces/android_spaces/recyclerview_spaces/android-my-recyclerview-example/app/build/intermediates/pre-dexed/debug/classes-6e0bcdce656e2cb108e34580603787e400302d46.jar" />
+    </item>
+    <item
+        jar="/Users/xiaolu/WorkSpaces/android_spaces/recyclerview_spaces/android-my-recyclerview-example/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/Users/xiaolu/WorkSpaces/android_spaces/recyclerview_spaces/android-my-recyclerview-example/app/build/intermediates/pre-dexed/debug/classes-5e06fc8d4f559832da62ed1215b72c8e07953753.jar" />
     </item>
 
 </items>
