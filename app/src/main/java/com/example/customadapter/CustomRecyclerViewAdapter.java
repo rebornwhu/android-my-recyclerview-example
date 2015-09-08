@@ -12,6 +12,10 @@ import com.example.chinesechairmen.R;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Note: before you extend RecyclerView.Adapter, first construct the ViewHolder class.
+ * Then you can implement the override methods.
+ */
 public class CustomRecyclerViewAdapter extends RecyclerView.Adapter<CustomRecyclerViewAdapter.ViewHolder> {
 
     private List<Leader> leaders;
