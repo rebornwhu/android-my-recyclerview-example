@@ -10,10 +10,11 @@ import android.widget.TextView;
 import com.example.chinesechairmen.R;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class CustomRecyclerViewAdapter extends RecyclerView.Adapter<CustomRecyclerViewAdapter.ViewHolder> {
 
-    private ArrayList<Leader> leaders;
+    private List<Leader> leaders;
 
     public CustomRecyclerViewAdapter(ArrayList<Leader> leaders) {
         this.leaders = leaders;
