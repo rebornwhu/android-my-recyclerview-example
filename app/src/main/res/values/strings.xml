@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">View Holder Demo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string-array name="names">
+        <item >Mao ZeDong</item>
+        <item >Deng XiaoPing</item>
+        <item >Jiang ZeMin</item>
+        <item >Hu JinTao</item>
+        <item >Xi JinPing</item>
+    </string-array>
+    
+    <integer-array name="images">
+        <item >@drawable/mao_zedong</item>
+   		<item >@drawable/deng_xiaoping</item>
+   		<item >@drawable/jiang_zemin</item>
+   		<item >@drawable/hu_jintao</item>
+   		<item >@drawable/xi_jinping</item>
+    </integer-array>
+    
+    <string-array name="comments">
+        <item >Founding father, military strongman</item>
+        <item >Brilliant economist, boost living standard</item>
+        <item >ASSHOLE!</item>
+        <item >Nice president, but got blocked by that asshole</item>
+        <item >See what he can do...</item>
+    </string-array>
+
+</resources>
