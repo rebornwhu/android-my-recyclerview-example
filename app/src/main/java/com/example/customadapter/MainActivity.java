@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private ArrayList<Leader> createDummyData() {
-        ArrayList<Leader> leaders = new ArrayList<Leader>();
+        ArrayList<Leader> leaders = new ArrayList<>();
 
         Resources res = getResources();
         String[] names = res.getStringArray(R.array.names);

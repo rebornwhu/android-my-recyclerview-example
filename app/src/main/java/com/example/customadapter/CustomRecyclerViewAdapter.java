@@ -24,7 +24,8 @@ public class CustomRecyclerViewAdapter extends RecyclerView.Adapter<CustomRecycl
         this.leaders = leaders;
     }
 
-    @Override public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+    @Override
+    public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         /**
          * xl The difference between listview view holder is that: here inflated root custom view
          * becomes a parameter of the view holder's constructor, child view lookup is conducted
@@ -34,13 +35,15 @@ public class CustomRecyclerViewAdapter extends RecyclerView.Adapter<CustomRecycl
         return new ViewHolder(v);
     }
 
-    @Override public void onBindViewHolder(ViewHolder holder, int position) {
+    @Override
+    public void onBindViewHolder(ViewHolder holder, int position) {
         holder.getNameTv().setText(leaders.get(position).getName());
         holder.getImageView().setImageResource(leaders.get(position).getImage());
         holder.getCommentTv().setText(leaders.get(position).getComment());
     }
 
-    @Override public int getItemCount() {
+    @Override
+    public int getItemCount() {
         return leaders.size();
     }
 
