@@ -12,6 +12,9 @@ import com.example.chinesechairmen.R;
 import java.util.ArrayList;
 import java.util.List;
 
+import butterknife.Bind;
+import butterknife.ButterKnife;
+
 /**
  * Note: before you extend RecyclerView.Adapter, first construct the ViewHolder class.
  * Then you can implement the override methods.
@@ -31,15 +34,17 @@ public class CustomRecyclerViewAdapter extends RecyclerView.Adapter<CustomRecycl
          * becomes a parameter of the view holder's constructor, child view lookup is conducted
          * inside view holder's constructor.
          */
-        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.custom_view, parent, false);
-        return new ViewHolder(v);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.custom_view, parent, false);
+        ButterKnife.bind(this, view);
+
+        return new ViewHolder(view);
     }
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        holder.getNameTv().setText(leaders.get(position).getName());
-        holder.getImageView().setImageResource(leaders.get(position).getImage());
-        holder.getCommentTv().setText(leaders.get(position).getComment());
+        holder.nameTv.setText(leaders.get(position).getName());
+        holder.imageView.setImageResource(leaders.get(position).getImage());
+        holder.commentTv.setText(leaders.get(position).getComment());
     }
 
     @Override
@@ -48,28 +53,13 @@ public class CustomRecyclerViewAdapter extends RecyclerView.Adapter<CustomRecycl
     }
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
-        private final TextView nameTv;
-        private final ImageView imageView;
-        private final TextView commentTv;
+        @Bind(R.id.textView1) TextView nameTv;
+        @Bind(R.id.imageView1) ImageView imageView;
+        @Bind(R.id.textView2) TextView commentTv;
 
-        public ViewHolder(View itemView) {
-            super(itemView);
-
-            nameTv = (TextView) itemView.findViewById(R.id.textView1);
-            imageView = (ImageView) itemView.findViewById(R.id.imageView1);
-            commentTv = (TextView) itemView.findViewById(R.id.textView2);
-        }
-
-        public TextView getNameTv() {
-            return nameTv;
-        }
-
-        public ImageView getImageView() {
-            return imageView;
-        }
-
-        public TextView getCommentTv() {
-            return commentTv;
+        public ViewHolder(View view) {
+            super(view);
+            ButterKnife.bind(this, view);
         }
     }
 

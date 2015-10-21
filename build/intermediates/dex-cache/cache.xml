@@ -2,46 +2,46 @@
 <items version="2" >
 
     <item
-        jar="/Users/xiaolu/WorkSpaces/android_spaces/recyclerview_spaces/android-my-recyclerview-example/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jar="/Users/xiao.lu/WorkSpaces/android_studio_spaces/recyclerview_spaces/android-my-recyclerview-example/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/Users/xiaolu/WorkSpaces/android_spaces/recyclerview_spaces/android-my-recyclerview-example/app/build/intermediates/pre-dexed/debug/classes-415b7ce41e3b7b7797504a123f879d556eae2e53.jar" />
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="/Users/xiao.lu/WorkSpaces/android_studio_spaces/recyclerview_spaces/android-my-recyclerview-example/app/build/intermediates/pre-dexed/debug/classes-3acdb5ccbeba21b0f512079ca18985aaa7ad9910.jar" />
     </item>
     <item
-        jar="/Users/xiaolu/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jar="/Users/xiao.lu/WorkSpaces/android_studio_spaces/recyclerview_spaces/android-my-recyclerview-example/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="/Users/xiao.lu/WorkSpaces/android_studio_spaces/recyclerview_spaces/android-my-recyclerview-example/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.0-ddb8a1f86454f39837d39a9eba5a82333b297ec3.jar" />
+    </item>
+    <item
+        jar="/Users/xiao.lu/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
-        <dex dex="/Users/xiaolu/WorkSpaces/android_spaces/recyclerview_spaces/android-my-recyclerview-example/app/build/intermediates/pre-dexed/debug/butterknife-7.0.1-8d75247ba0987afb2394b8c003615e75b19ba02e.jar" />
+        <dex dex="/Users/xiao.lu/WorkSpaces/android_studio_spaces/recyclerview_spaces/android-my-recyclerview-example/app/build/intermediates/pre-dexed/debug/butterknife-7.0.1-e72f0ac19a12bc4d57493be53e4e6316b5467fc9.jar" />
     </item>
     <item
-        jar="/Users/xiaolu/WorkSpaces/android_spaces/recyclerview_spaces/android-my-recyclerview-example/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jar="/Users/xiao.lu/WorkSpaces/android_studio_spaces/recyclerview_spaces/android-my-recyclerview-example/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/Users/xiaolu/WorkSpaces/android_spaces/recyclerview_spaces/android-my-recyclerview-example/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-30d7d867d58a720f1128a48ed1fb0cb75e0764d3.jar" />
+        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
+        <dex dex="/Users/xiao.lu/WorkSpaces/android_studio_spaces/recyclerview_spaces/android-my-recyclerview-example/app/build/intermediates/pre-dexed/debug/classes-50852bf44c00efcb4116f6153e1078cce0ab5920.jar" />
     </item>
     <item
-        jar="/Users/xiaolu/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jar="/Users/xiao.lu/WorkSpaces/android_studio_spaces/recyclerview_spaces/android-my-recyclerview-example/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/Users/xiaolu/WorkSpaces/android_spaces/recyclerview_spaces/android-my-recyclerview-example/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-f0f243a7dd445632a31ec772dd1b99118e54cd10.jar" />
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="/Users/xiao.lu/WorkSpaces/android_studio_spaces/recyclerview_spaces/android-my-recyclerview-example/app/build/intermediates/pre-dexed/debug/classes-7b1d401b9922224860ab3303881b80df6d1a76c3.jar" />
     </item>
     <item
-        jar="/Users/xiaolu/WorkSpaces/android_spaces/recyclerview_spaces/android-my-recyclerview-example/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jar="/Users/xiao.lu/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/Users/xiaolu/WorkSpaces/android_spaces/recyclerview_spaces/android-my-recyclerview-example/app/build/intermediates/pre-dexed/debug/classes-6e0bcdce656e2cb108e34580603787e400302d46.jar" />
-    </item>
-    <item
-        jar="/Users/xiaolu/WorkSpaces/android_spaces/recyclerview_spaces/android-my-recyclerview-example/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
-        <dex dex="/Users/xiaolu/WorkSpaces/android_spaces/recyclerview_spaces/android-my-recyclerview-example/app/build/intermediates/pre-dexed/debug/classes-5e06fc8d4f559832da62ed1215b72c8e07953753.jar" />
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="/Users/xiao.lu/WorkSpaces/android_studio_spaces/recyclerview_spaces/android-my-recyclerview-example/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.0-501df9e212d43d0ec853eedff9689aab5efb3c55.jar" />
     </item>
 
 </items>
