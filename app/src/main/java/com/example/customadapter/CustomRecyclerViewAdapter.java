@@ -63,4 +63,7 @@ public class CustomRecyclerViewAdapter extends RecyclerView.Adapter<CustomRecycl
         }
     }
 
+    public List<Leader> getLeaders() {
+        return leaders;
+    }
 }

@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.helper.ItemTouchHelper;
 
 import com.example.chinesechairmen.R;
 
@@ -18,6 +19,9 @@ public class MainActivity extends AppCompatActivity {
 
     @Bind(R.id.recyclerView) RecyclerView recyclerView;
 
+    private CustomRecyclerViewAdapter adapter;
+    private ArrayList<Leader> leaders;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,8 +31,11 @@ public class MainActivity extends AppCompatActivity {
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
 
-        CustomRecyclerViewAdapter adapter = new CustomRecyclerViewAdapter(createDummyData());
+        leaders = createDummyData();
+        adapter = new CustomRecyclerViewAdapter(leaders);
         recyclerView.setAdapter(adapter);
+        ItemTouchHelper itemTouchHelper = new ItemTouchHelper(simpleCallback);
+        itemTouchHelper.attachToRecyclerView(recyclerView);
     }
 
     private ArrayList<Leader> createDummyData() {
@@ -50,5 +57,19 @@ public class MainActivity extends AppCompatActivity {
 
         return leaders;
     }
+
+    private ItemTouchHelper.SimpleCallback simpleCallback = new ItemTouchHelper.SimpleCallback(0, ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT) {
+        @Override
+        public boolean onMove(RecyclerView recyclerView, RecyclerView.ViewHolder viewHolder, RecyclerView.ViewHolder target) {
+            return false;
+        }
+
+        @Override
+        public void onSwiped(RecyclerView.ViewHolder viewHolder, int direction) {
+            int position = viewHolder.getLayoutPosition();
+            adapter.getLeaders().remove(position);
+            adapter.notifyDataSetChanged();
+        }
+    };
 
 }
