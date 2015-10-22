@@ -105,9 +105,13 @@ public class MainActivity extends AppCompatActivity {
                     c.drawText("Yes It's Me", swipeTextUnitMargin, textYPosition, textPaint);
                 }
                 else {
-                    c.drawRect((float)view.getRight() + dX, (float)view.getTop(), (float)view.getRight(), (float)view.getBottom(), bgPaint);
-                    float textYPosition = (float)(view.getTop() + view.getBottom()) / 2 + swipeHintTextSize / 2;
-                    c.drawText("More Info", (float) view.getRight() + dX + swipeTextUnitMargin, textYPosition, textPaint);
+                    c.drawRect((float) view.getRight() + dX, (float) view.getTop(), (float) view.getRight(), (float) view.getBottom(), bgPaint);
+
+                    float textYPosition = (float) (view.getTop() + view.getBottom()) / 2 + swipeHintTextSize / 2;
+                    if (dX * (-1) < swipeTextUnitMargin * 7)
+                        c.drawText("More Info", (float) view.getRight() + dX, textYPosition, textPaint);
+                    else
+                        c.drawText("More Info", (float) view.getRight() - swipeTextUnitMargin * 7, textYPosition, textPaint);
                 }
             }
 
