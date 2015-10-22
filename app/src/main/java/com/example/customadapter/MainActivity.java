@@ -70,6 +70,8 @@ public class MainActivity extends AppCompatActivity {
             adapter.getLeaders().remove(position);
             adapter.notifyDataSetChanged();
         }
+
+
     };
 
 }
